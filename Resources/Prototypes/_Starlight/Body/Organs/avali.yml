@@ -12,7 +12,7 @@
       - Pill
       - Crayon
       - Paper
-      - AvianFood
+      # TheDen: No AvianFood
   - type: SolutionContainerManager
     solutions:
       stomach:

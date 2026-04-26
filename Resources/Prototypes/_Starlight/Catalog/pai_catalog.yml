@@ -1,0 +1,15 @@
+- type: listing
+  id: Scratch
+  name: language-Scratch-name
+  description: language-Scratch-description
+  productLanguage: Scratch
+  icon:
+    sprite: /Textures/_Starlight/Interface/language_icon.rsi
+    state: avali
+  cost:
+    SiliconMemory: 5
+  categories:
+    - Languages
+  conditions:
+    - !type:ListingLimitedStockCondition
+      stock: 1

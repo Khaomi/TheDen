@@ -96,9 +96,9 @@
         Female: FemaleAvali
         Unsexed: MaleAvali
     - type: MovementSpeedModifier
-      baseWeightlessAcceleration: 1.6 # Avalis are specifically built to fly in low-g environments
-      baseWeightlessFriction: 1
-      baseWeightlessModifier: 1
+      weightlessAcceleration: 1.6 # Avalis are specifically built to fly in low-g environments # TheDen: baseWeightlessAcceleration<weightlessAcceleration
+      weightlessModifier: 1 # TheDen: baseWeightlessModifier<weightlessModifier
+      weightlessFriction: 1 # TheDen: baseWeightlessFriction<weightlessFriction
     - type: Damageable
       damageContainer: Biological
       damageModifierSet: Avali
@@ -108,10 +108,8 @@
           sprite: Mobs/Effects/brute_damage.rsi
           color: "#6C3BAA"
     - type: Bloodstream
-      bloodReferenceSolution:
-        reagents:
-        - ReagentId: AvaliBlood
-          Quantity: 300
+      # TheDen: No bloodReferenceSolution
+      bloodReagent: AvaliBlood
     - type: MeleeWeapon
       soundHit:
         path: /Audio/Weapons/pierce.ogg

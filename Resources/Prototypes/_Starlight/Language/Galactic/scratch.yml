@@ -1,0 +1,12 @@
+- type: language
+  id: Scratch
+  # TheDen: no icon, no chat prefix :(
+  speech:
+    color: "#fc7921"
+    fontId: Scratch
+    # TheDen: no obfuscationFont
+  obfuscation:
+    # TheDen: No RandomObfuscation
+    !type:ReplacementObfuscation
+    replacement:
+    - "" # basically we can't get around this, so let's pretend that it's alright while crying

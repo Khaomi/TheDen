@@ -1,0 +1,17 @@
+# TheDen: Modify to work with our language system
+- type: trait
+  id: Scratch
+  category: TraitsSpeechLanguages
+  points: -2
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Avali
+      inverted: true
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - Scratch
+      languagesUnderstood:
+        - Scratch
+# End TheDen

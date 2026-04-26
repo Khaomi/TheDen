@@ -16,13 +16,15 @@
   youngAge: 103
   oldAge: 257
   maxAge: 430
-  minHeight: 0.8
-  defaultHeight: 0.91
-  maxHeight: 1
-  standardSize: 150 # gives a range of 130-150cm and 27-31kg
-  standardWeight: 31
-  standardDensity: 11
-  customName: true # Starlight
+  # TheDen: Copied from Resomi (they should be roughly the same size)
+  minHeight: 0.65
+  defaultHeight: 0.8
+  maxHeight: 1.1
+  minWidth: 0.6
+  defaultWidth: 0.8
+  maxWidth: 1.15
+  # End TheDen
+  # TheDen: customName no workie :(
 
 - type: speciesBaseSprites
   id: MobAvaliSprites
